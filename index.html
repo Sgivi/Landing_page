@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEF NAE'S CATERING </title>
+    <style>
+        body {
+            font-family: Arial sans-serif; 
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: black; /* Adjust text for readability */
+            background: gold; /* Add a dark overlay */
+        }
+        .header, .features, .gallery, .about-us, .order, .contact, .footer {
+            padding: 20px;
+            margin: 10px 0;
+        }
+        .header {
+            background: url(yum.jpeg) no-repeat center center;
+            background-size: cover;
+            color: white; /*Ensure text is readable against the background */
+            position: relative;
+        }
+        .header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .features, .gallery, .about-us, .order, .contact {
+            background-color: gold;
+            border: 1px solid gold;
+            border-radius: 5px;
+        }
+        .header-content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+        .header-content {
+            text-align: center;
+        }
+        .logo {
+            max-width: 100px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .image-link {
+           display: inline-block;
+           text-decoration: none;
+           border: 2px solid gold;
+           border-radius: 5px;
+           overflow: hidden;  
+        }
+        .image-link img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }   
+        .image-link:hover {
+            border-color: #ffffff;
+        }    
+        .btn {
+           display: inline-block;
+           padding: 10px 20px;
+           font-size: 16px;
+           color: rgb(255, 254, 254);
+           background-color: #25fa53;
+           text-decoration: ivory;
+           border-radius: 5px;
+           margin-top: 20px; 
+        }
+        .btn:hover {
+            background-color: #ffffff;
+        }
+        .gallery img {
+            width: 30%;
+            height: auto;
+            margin: 5px;
+            opacity: 0.8;
+        }
+        .gallery img:hover {
+            opacity: 1;
+        }
+        .gallery {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        footer {
+            position: relative;
+            background-color: gold;
+            background-size: cover;
+            color: white;
+            padding: 40px 0;
+            margin-top: 50px;
+        }
+        .footer-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .footer-content {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="logo.jpeg" alt="logo" style="max-width: 100px;">
+            <h1>CHEF NAE'S CATERING</h1>
+            <h2>Irresistable Taste</h2>
+    </header>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Our Dishes</h2>
+            <ul>
+            <li>Irresistable taste and creative food options</li>
+            <li>Colorful and visually appealing presentations</li>
+            <li>Exeptional and diligent service</li>
+            <li>Customized catering solutions for all events</li>
+        </ul>
+        </section>
+
+        <!-- Gallery Section -->
+         <section class="gallery">
+            <h2>Our Food Offerings</h2>
+            <img src="nice.jpeg" alt="Food 1">
+            <img src="wow.jpeg" alt="Food 2">
+            <img src="tasty.jpeg" alt="Food 3">
+         </section>
+
+         <!-- About Us Section -->
+          <section class="about-us">
+            <h2>About Us</h2>
+            <p>Chef Nae's Catering is a dedicated catering and events management company that strives to exceed customer expectations by offering irresistable taste, creative and colorful food options, and exceptional service. Our mission is to provide the best hospitality, ensuring our customers are happiernand healthier. We aim to create a service-based company focused on exceeding customer expectations, providing healthy meals, and delivering professional, and respect, which guide us in developing sustainable businees practices and achieving profitability. </p>
+          </section>
+        <section>
+            <h3>Order</h3>
+            <p>Place your order here</p> <a href="Order Form.jpeg" class="btn">Order Here</a>
+        </section>
+        <section>
+            <h4>Contact Us</h4>
+            <p>Email: manoquenene@gmail.com</p>
+            <p>Phone: +81 780 6511</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer content">
+        <p>Copyright © CHEF NAE'S CATERING</p>
+        <p>Irresistable Taste</p>
+        </div>
+    </footer>
+</body>
+</html>
